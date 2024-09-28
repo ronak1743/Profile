@@ -1,0 +1,52 @@
+body{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    background-color:rgba(228,229,233,255);
+}
+
+.personalInfo{
+    background-color: rgba(61,63,62,255);
+    padding: 10px;
+    color: white;
+}
+
+.mainBody{
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 80%;
+}
+.name{
+    width: 100%;
+    /* align-self: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.imgAndContect>img{
+    width: 150px;
+    position:absolute;
+    /* left: 80%; */
+    right: 13%;
+    top: 22px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    font-size: 120%;
+}
+
+.Education,.Project,.TechSkill,.Skills,.Achievements{
+    font-size: 120%;
+    line-height: 25px;
+    
+
+}
+h3{
+    padding: 5px;
+    color: rgba(63,63,65,255);
+    background-color: rgba(205,205,207,255);
+}
+
+
